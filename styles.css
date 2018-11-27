@@ -1,0 +1,427 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	font-family: sans-serif;
+	
+}
+.main-container {
+	margin: 0;
+}
+.main-nav {
+	max-width: 100%; 
+	padding: 10px 10px; 
+	position: sticky;
+	top: 0;
+	background-color: white;
+	
+	 
+}
+
+
+.nav-img {
+	width: 100%;
+	padding: 10px 0;
+	}
+
+.img-logo {
+	width: 25%;
+}
+p {
+	font-weight: 400;
+	line-height: 1.05rem;
+	letter-spacing: normal;
+	font-size: 1.0625rem;
+	color: #5b5e6d;	
+	margin: auto;
+	line-height: 1.5;
+	letter-spacing: normal;
+	padding: 10px 0;
+	font-family: sans-serif;
+}
+.working-main {
+	margin: 20px 30px;
+	
+}
+
+
+h1 {
+	font-family: Times New Roman; 
+	font-size: 38px;
+	font-weight: 800;
+	line-height: 36.96px;
+	letter-spacing: normal; 
+	color: #323648;
+	text-align: left;
+	
+}
+
+h2 {
+	font-family: Times New Roman; 
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 36.96px;
+	letter-spacing: normal; 
+	color: #323648;
+	text-align: left;
+}
+h3 {
+	font-family: Times New Roman; 
+	font-size: 25px;
+}
+
+h4 {
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 10px 0 0;
+}
+.main-axis {
+	margin: 10px 30px;
+}
+}
+
+.container-img {
+		width: 100%;
+	overflow: auto; 
+	padding: 50px 0;
+}
+
+.container-img__size {
+	width: 100%;
+}
+
+.container-margin-left {
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: normal;
+	font-size: 1.0625rem;
+}
+
+.input-email {
+		width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	height: 60px;
+	outline: none;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+
+.email {
+		box-sizing: border-box;
+	margin: 18px auto 0 auto; 
+	
+}
+.header-button {
+	width: 100%;
+	background-color: #3f46ad;
+	border-radius: 5px;
+	padding: 20px 20px;
+	font-size: 15px;
+	color: white; 
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: normal;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	margin: 10px 0;
+	border: 1px solid #3f46ad;
+
+}
+.button-connect {
+	text-align: center; 
+	font-family: sans-serif;
+}
+
+.axis-container {
+	width: 100%;
+	}
+
+
+.card {
+	width: 100%;
+	padding: 10px 0; 
+	margin: 10px 0;
+	
+}
+.text-info {
+	text-decoration: none;
+	color: #3f46ad;
+	margin: auto 0; 
+	text-align: center;
+	font-weight: bold;
+	margin-right: -50%
+	
+}
+
+.solutions-main {
+	background-color: #f5f5f5;
+	max-width: 100%;
+	padding: 50px 0;
+}
+.solutions-container {
+	background-image: url(https://a.slack-edge.com/871c0/marketing/img/accent/tracks_1.png);
+background-repeat: no-repeat;
+width: 100%;
+display: block; 
+padding
+
+}
+.solutions-devices {
+	margin: 10px 30px;
+}
+
+
+.card-solutions-links {
+	text-decoration: none; 
+	border: none; 
+	width: auto; 
+	background-color: #fff;
+	color: black; 
+	flex-basis: 17rem;
+	align-content: center; 
+	align-items: center; 
+	font-size: 1.2em;
+	text-transform: none; 
+	padding: 20px 10px;
+	margin: 10px 10px;
+	display: flex;
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+
+.company-container {
+	margin: 10px 30px;
+}
+.clients-logo {
+	margin: 10px 30px;
+}
+
+.blog-subtitles {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.gratis-container {
+	background-color: #3f46ad;
+}
+
+.company-container {
+	margin: 10px 30px;
+}
+
+.link-card-svg {
+	opacity: 1;
+    margin-left: auto;
+	fill: #a8a9b0!important;
+	
+}
+.link-container {
+	max-width: 100%;
+	 
+}
+
+.grid-link {
+	text-decoration:none; 
+	color: black;
+}
+.blog-story {
+	color: #3f46ad; 
+	width: 100%; 
+	background-color: white; 
+	font-weight: bold; 
+	padding: 20px 10px; 
+	font-family: sans-serif;
+}
+
+.blog-container {
+	border: 2px solid #eee;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0 0 10px 0;
+}
+
+.blog-title {
+	padding: 30px 20px;
+}
+
+.blog__main-title {
+	padding: 10px 0;
+	font-weight: bold;
+	
+}
+.logo-main {
+	max-width: 100%;
+	display: block;
+}
+.container-logo {
+	padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo-ticketmaster {
+	max-width: 140px;
+    margin: 10px;
+    text-align: center;
+}
+.logo-airbnb {
+	max-width: 140px; 
+	margin-top: 13px;
+}
+.logo-target {
+	max-width: 140px;
+	margin-top: 14px; 
+}
+
+.logo-capital-one {
+	max-width: 120px; 
+}
+
+.logo-oracle {
+	max-width: 140px; 	
+	margin-top: 11px;
+}
+
+.signup-container {
+	background-image: url(/871c0/marketing/img/accent/bg_halftone_black_20p.png);
+    background-size: 1300px 700px;
+    background-repeat: repeat;
+    background-color: #3f46ad;
+    display: flex;
+    align-items: center;
+    height: 370px;
+	text-align: center;
+	max-width: 100%;
+
+}
+.signup-claim {
+	color: white; 
+	text-align: center; 
+	padding: 20px;
+	font-weight: bolder;
+}
+.signup-button {
+	background-color: white; 
+	color: #3f46ad; 
+	padding: 20px 60px;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+
+.footer-container {
+	max-width: 100%;
+}
+.footer-container__block {
+	flex: 1 1 50%;
+	margin: 10px 25px;
+	max-width: 100%;
+	
+}
+
+.footer-img {
+	margin: 20px 10px;
+	
+	padding: 20px 0;
+}
+.footer-img__size {
+	width: 15%; 
+}
+.footer-list {
+	list-style: none;
+	color: #5b5e6d;
+	 
+}
+
+.footer__titles {
+	font-weight: bold;
+}
+
+.footer-list-item {
+	font-family: Slack-Averta,appleLogo,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: normal;
+	font-size: 1rem;
+	margin: 20px 0;
+	box-sizing: inherit; 
+	display: list-item;
+    text-align: -webkit-match-parent;
+
+}
+.link-footer {
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #5b5e6d;
+}
+
+.disclaimer {
+	max-width: 100%; 
+	background-color: #f5f5f5; 
+	text-align: center; 
+	padding: 10px; 
+	
+}
+.form-texts {
+	font-size: 10px; 
+	
+}
+
+.footer__disclaimer {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.footer_social-media-logo {
+	margin: 10px 0;
+	padding: 10px;
+}
